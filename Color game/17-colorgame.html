@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color game Project</title>
+	<link rel="stylesheet" type="text/css" href="17-colorgame.css">
+</head>
+<body>
+	<h1>The Great <br><span id="colorDisplay">RGB</span><br>Color Game</h1>
+	<div id="stripe">
+		<button id="reset">New Colors</button>
+		<span id="message"></span>
+		<button class="mode">Easy</button>
+		<button class="mode selected">Hard</button>
+	</div>
+	<div id="container"> <!-- We are not using bootstrap so giving class=container won't work here. Instead we use css to center it. margin: 0 auto-->
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+
+<script type="text/javascript" src="17-colorgame.js"></script>
+</body>
+</html>
